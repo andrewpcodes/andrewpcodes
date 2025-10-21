@@ -8,8 +8,8 @@ I'm a **Senior Software Engineer**, Co-Founder and Technical Lead of **Overmild*
 - **Dev Practices:** Clean code, TDD, CI/CD, Cloud-native architectures
 
 ## 🚀 Projects
-- **[last-drop](#)**: Pushing the limits of [describe what last-drop does, e.g., "real-time data streaming"]
-- **[fleeting link](#)**: Innovating in [describe fleeting link, e.g., "ephemeral messaging and secure link sharing"]
+- **[last-drop](#)**: A drink api built with Springboot 3
+- **[fleeting link](#)**: Innovating in ephemeral messaging and secure link sharing
 
 ## 🌱 Currently Exploring
 - Modern web architectures with Next.js
