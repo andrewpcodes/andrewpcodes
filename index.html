@@ -1,53 +1,160 @@
 <!DOCTYPE html>
-<html>
-    <head>
-        <title>Andrew Peterson</title>
-        <link rel="stylesheet" href="style.css">
-    </head>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Andrew Peterson — Software Engineer</title>
+    <meta name="description" content="Andrew Peterson is a Senior Software Engineer and Co-Founder &amp; Technical Lead at Overmild, building backend systems and products in Java, Python, and TypeScript.">
+    <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Crect width='100' height='100' rx='18' fill='%230a0c0f'/%3E%3Ctext x='50' y='67' font-family='monospace' font-size='52' fill='%23e3a458' text-anchor='middle'%3E%3E_%3C/text%3E%3C/svg%3E">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;600&family=Newsreader:ital,wght@0,400;0,500;1,400&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
 
-    <body>
-        <header>
+<body>
+    <header class="site-header">
+        <div class="header-inner">
+            <a href="#top" class="wordmark">andrew<span>.</span>dev</a>
             <nav>
                 <ul>
-                    <li><a href="#hero">Home</a></li>
-                    <li><a href="privacy.html">Privacy</a></li>
-                    <li><a href="contact.html">Contact</a></li>
-                    <li><a href="support.html">Support</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#work">Work</a></li>
+                    <li><a href="#overmild">Overmild</a></li>
+                    <li><a href="#contact">Contact</a></li>
                 </ul>
             </nav>
-        </header>
-        <main>
-            <section id="hero">
-                <div class="section-inner">
-                    <img src="profile.jpeg" class="profile-img">
-                    <h1>Hi, I'm Andrew Peterson</h1>
+        </div>
+    </header>
+
+    <main>
+        <section id="top" class="hero">
+            <div class="hero-grid">
+                <div class="hero-copy">
+                    <p class="eyebrow">Software Engineer</p>
+                    <h1>Andrew Peterson</h1>
+                    <p class="hero-role"><span class="cursor">&gt;</span> Senior Software Engineer — Co-Founder &amp; Technical Lead @ <a href="#overmild">Overmild</a></p>
+                    <p class="hero-lede">I build backend systems and products that hold up under real use — clean APIs, dependable infrastructure, and interfaces people actually enjoy using.</p>
+                    <div class="hero-actions">
+                        <a class="btn" href="mailto:apeterson247@gmail.com">Email me</a>
+                        <a class="btn btn-ghost" href="https://github.com/andrewpcodes" target="_blank" rel="noopener">GitHub ↗</a>
+                    </div>
                 </div>
-            </section>
-            <section id="about">
-                <div class="section-inner">
-                    <h2>About me</h2>
-                    <p>Im a CS Student and an aspiring app developer.</p>
-                    <h3>Achievements</h3>
-                    <ul>
-                        <li>Working towards a BS in CS at WIT</li>
-                        <li>Tyler Technologies Intership</li>
-                        <li>My Daily Drink App</li>
+                <div class="hero-portrait">
+                    <div class="portrait-frame">
+                        <img src="profile.jpeg" alt="Portrait of Andrew Peterson" width="480" height="480">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="about" class="section">
+            <p class="eyebrow">01 — About</p>
+            <div class="about-grid">
+                <div class="about-copy">
+                    <h2>Background</h2>
+                    <p>I'm a software engineer who cares as much about the shape of a system as whether it ships on time. My work spans backend services, developer tooling, and the occasional pixel-pushing when a product needs it.</p>
+                    <p>Outside of client work, I co-founded <strong>Overmild</strong>, where I lead engineering — from architecture decisions down to the CI pipeline.</p>
+                </div>
+                <dl class="fact-sheet" aria-label="Quick facts">
+                    <div class="fact-row"><dt>role</dt><dd>Senior Software Engineer</dd></div>
+                    <div class="fact-row"><dt>company</dt><dd>Overmild — Co-Founder &amp; Technical Lead</dd></div>
+                    <div class="fact-row"><dt>education</dt><dd>B.S. Computer Science, WIT</dd></div>
+                    <div class="fact-row"><dt>past</dt><dd>Software Engineering Intern, Tyler Technologies</dd></div>
+                    <div class="fact-row"><dt>exploring</dt><dd>Next.js, Spring Boot patterns, Python automation</dd></div>
+                </dl>
+            </div>
+
+            <div class="stack-panel">
+                <p class="eyebrow" style="margin-bottom:0;">Stack</p>
+                <div class="stack-groups">
+                    <div class="stack-group">
+                        <h3>Languages</h3>
+                        <ul class="tag-list">
+                            <li>Java</li>
+                            <li>Python</li>
+                            <li>JavaScript</li>
+                            <li>TypeScript</li>
+                        </ul>
+                    </div>
+                    <div class="stack-group">
+                        <h3>Frameworks</h3>
+                        <ul class="tag-list">
+                            <li>Spring Boot</li>
+                            <li>React</li>
+                            <li>Next.js</li>
+                        </ul>
+                    </div>
+                    <div class="stack-group">
+                        <h3>Practice</h3>
+                        <ul class="tag-list">
+                            <li>TDD</li>
+                            <li>CI/CD</li>
+                            <li>Cloud-native</li>
+                            <li>Clean code</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="work" class="section">
+            <p class="eyebrow">02 — Selected work</p>
+            <h2>Projects</h2>
+            <div class="project-grid">
+                <article class="project-card">
+                    <div class="project-head">
+                        <h3>last-drop</h3>
+                        <span class="project-tag">API</span>
+                    </div>
+                    <p>A drink-tracking API built on Spring Boot 3 — the backend for a personal habit app, designed around clean domain boundaries and a fast dev loop.</p>
+                    <ul class="tag-list small">
+                        <li>Spring Boot 3</li>
+                        <li>Java</li>
+                        <li>PostgreSQL</li>
                     </ul>
-                </div>
-            </section>
-            <section id="contact">
-                <div class="section-inner">
-                    <h2>Contact me</h2>
-                    <p>You can find me on:</p>
-                    <ul>
-                        <li><a href="https://twitter.com/aptracky">Twitter</a></li>
+                </article>
+                <article class="project-card">
+                    <div class="project-head">
+                        <h3>fleeting-link</h3>
+                        <span class="project-tag">Product</span>
+                    </div>
+                    <p>Ephemeral messaging and secure link sharing — links that expire by design, built for conversations that shouldn't outlive the moment.</p>
+                    <ul class="tag-list small">
+                        <li>TypeScript</li>
+                        <li>Next.js</li>
                     </ul>
-                    <p>Or, you can <a href="mailto:apeterson247@gmail.com">send me an email</a>.</p>
-                </div>
-            </section>
-        </main>
-        <footer>
-            Copyright Andrew Peterson, 2021
-        </footer>
-    </body>
+                </article>
+            </div>
+        </section>
+
+        <section id="overmild" class="section">
+            <p class="eyebrow">03 — Overmild</p>
+            <h2>Building Overmild</h2>
+            <p>As Co-Founder and Technical Lead, I drive the technical vision behind Overmild — from early architecture bets to the systems that let us ship quickly without breaking things. It's where most of my current thinking about scale, tooling, and product craft happens.</p>
+        </section>
+
+        <section id="contact" class="section">
+            <p class="eyebrow">04 — Contact</p>
+            <h2>Let's talk</h2>
+            <p class="contact-lede">Have an idea worth building, or just want to say hi? I'm generally around.</p>
+            <ul class="contact-list">
+                <li><span>Email</span><a href="mailto:apeterson247@gmail.com">apeterson247@gmail.com</a></li>
+                <li><span>GitHub</span><a href="https://github.com/andrewpcodes" target="_blank" rel="noopener">github.com/andrewpcodes</a></li>
+                <li><span>Twitter</span><a href="https://twitter.com/aptracky" target="_blank" rel="noopener">@aptracky</a></li>
+            </ul>
+        </section>
+    </main>
+
+    <footer class="site-footer">
+        <p class="quote">&ldquo;Code is like humor. When you have to explain it, it&rsquo;s bad.&rdquo; — Cory House</p>
+        <div class="footer-row">
+            <span>&copy; 2026 Andrew Peterson</span>
+            <nav class="footer-nav">
+                <a href="privacy.html">Privacy</a>
+                <a href="support.html">Support</a>
+            </nav>
+        </div>
+    </footer>
+</body>
 </html>
