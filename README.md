@@ -20,9 +20,9 @@ I'm a **Senior Software Engineer**, Co-Founder and Technical Lead of **Overmild*
 As the Co-Founder and Technical Lead at Overmild, I drive the vision and technical excellence behind our products, focusing on innovation, scalability, and delivering real value.
 
 ## 📫 Let's Connect!
-- [GitHub Discussions](https://github.com/andrewpcodes)
-- [LinkedIn](#) <!-- Add your LinkedIn if you want -->
-- [Your personal site/blog](#) <!-- Add if you have one -->
+- [GitHub](https://github.com/andrewpcodes)
+- [LinkedIn](https://www.linkedin.com/in/andrew-m-peterson/)
+- [andrewpcodes.com](https://andrewpcodes.com)
 
 ---
 
